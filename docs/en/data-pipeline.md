@@ -86,6 +86,11 @@ This combination is one of the main reasons why the project is more robust than 
 
 ## Main pipeline challenges
 
+<p align="center">
+  <img src="/assets/images/data/raw-turbidity-before-outlier-removal.png" alt="Raw turbidity series before outlier removal" width="860">
+</p>
+<p align="center"><em>Figure. Example of the raw turbidity series before preprocessing and outlier handling.</em></p>
+
 Designing the pipeline required solving several data engineering problems.
 
 ### 1. Different temporal resolutions
