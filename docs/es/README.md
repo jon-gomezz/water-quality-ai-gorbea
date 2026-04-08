@@ -205,7 +205,6 @@ Este repositorio está organizado como un portfolio técnico bilingüe.
 │       ├── implementacion-y-monitorizacion.md
 │       ├── resultados.md
 │       └── lecciones-aprendidas.md
-└── references/
 ```
 
 ---
