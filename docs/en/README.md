@@ -196,15 +196,15 @@ This repository is organized as a bilingual technical portfolio.
 │   │   └── lessons-learned.md
 │   └── es/
 │       ├── README.md
-│       ├── project-overview.md
-│       ├── context-and-problem.md
-│       ├── methodology.md
-│       ├── data-pipeline.md
-│       ├── modeling.md
-│       ├── system-architecture.md
-│       ├── deployment-and-monitoring.md
-│       ├── results.md
-│       └── lessons-learned.md
+│       ├── descripcion-del-proyecto.md
+│       ├── contexto-y-problema.md
+│       ├── metodologia.md
+│       ├── proceso-de-datos.md
+│       ├── modelado.md
+│       ├── arquitectura-del-sistema.md
+│       ├── implementacion-y-monitorizacion.md
+│       ├── resultados.md
+│       └── lecciones-aprendidas.md
 └── references/
 ```
 
