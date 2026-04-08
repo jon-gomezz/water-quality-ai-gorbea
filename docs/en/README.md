@@ -15,6 +15,11 @@ Rather than presenting the work as a traditional academic thesis, this repositor
 * validation
 * deployment readiness
 
+<p align="center">
+  <img src="/assets/images/overview/filters-gorbea.png" alt="Filters at the Gorbea water treatment plant" width="820">
+</p>
+<p align="center"><em>Figure. Filters at the Gorbea water treatment plant.</em></p>
+
 ---
 
 ## The problem
@@ -78,6 +83,11 @@ The project also aligns with a broader utility modernization context, where SCAD
 ## Technical approach
 
 The project was structured as a full methodological pipeline.
+
+<p align="center">
+  <img src="/assets/images/methodology/methodology-phases.png" alt="Methodology phases for the AI-based water quality prediction framework" width="760">
+</p>
+<p align="center"><em>Figure. High-level phases of the proposed AI methodology.</em></p>
 
 ### 1. Objective and requirement definition
 
