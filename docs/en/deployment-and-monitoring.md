@@ -132,6 +132,11 @@ Rather than building a complex enterprise dashboard for the first validation sta
 
 The monitoring dashboard is intentionally simple and focused on the most important outputs.
 
+<p align="center">
+  <img src="/assets/images/deployment/thingspeak-dashboard.png" alt="ThingSpeak dashboard used for pilot monitoring" width="820">
+</p>
+<p align="center"><em>Figure. ThingSpeak dashboard used to monitor predicted turbidity, real turbidity, and point error during the pilot.</em></p>
+
 The pilot interface includes:
 
 * a line chart for **real turbidity**
