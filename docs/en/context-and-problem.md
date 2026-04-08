@@ -38,6 +38,11 @@ This point is especially relevant because it reflects the quality of the incomin
 
 A key challenge in this environment is that turbidity can change very quickly during heavy rainfall episodes. In the Gorbea case, raw water turbidity may move from low baseline levels to severe peaks within a short time window, creating pressure on the plant’s treatment processes and on the operators responsible for keeping the system stable.
 
+<p align="center">
+  <img src="/assets/images/overview/water-origin-scheme.png" alt="Water origin scheme feeding the Gorbea treatment plant" width="760">
+</p>
+<p align="center"><em>Figure. Simplified scheme of the water sources feeding the Gorbea plant.</em></p>
+
 ---
 
 ## Climate variability and operational pressure
@@ -86,6 +91,11 @@ In this case, the project addresses a more complete question:
 ## Why the problem is difficult
 
 Several factors make this problem non-trivial.
+
+<p align="center">
+  <img src="/assets/images/data/raw-turbidity-before-outlier-removal.png" alt="Raw turbidity signal before outlier removal" width="860">
+</p>
+<p align="center"><em>Figure. Raw turbidity signal before outlier handling, illustrating the presence of spikes and irregular behavior.</em></p>
 
 ### 1. Heterogeneous data sources
 
