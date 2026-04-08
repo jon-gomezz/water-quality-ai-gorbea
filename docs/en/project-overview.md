@@ -8,6 +8,11 @@ The project goes beyond building a single predictive model. Its main contributio
 
 The methodology was applied to a real case study by integrating **historical SCADA plant data** with **meteorological variables**, comparing multiple deep learning architectures, and validating a functional prototype for future pilot deployment.
 
+<p align="center">
+  <img src="/assets/images/overview/aerial-infrastructure.png" alt="Aerial view of the Gorbea treatment infrastructure" width="700">
+</p>
+<p align="center"><em>Figure. Overview of the physical setting of the Gorbea case study.</em></p>
+
 ---
 
 ## Why the project was needed
