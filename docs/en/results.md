@@ -55,6 +55,11 @@ At the **1-hour prediction horizon**, the overall performance was excellent acro
 
 This is one of the most relevant findings of the study because it shows that **short-term turbidity behavior is highly predictable** when recent plant history is available.
 
+<p align="center">
+  <img src="/assets/images/results/mlp-fit-1h.png" alt="MLP fit at 1-hour forecast horizon" width="860">
+</p>
+<p align="center"><em>Figure. Example of strong short-horizon fit using the MLP model.</em></p>
+
 ### Main observations
 
 * All evaluated models achieved strong results in the short-term setting.
@@ -132,6 +137,11 @@ The **6-hour horizon** is the most demanding and also the most operationally val
 
 This is where the most important result of the project appears.
 
+<p align="center">
+  <img src="/assets/images/results/tft-fit-6h.png" alt="TFT fit at 6-hour forecast horizon" width="860">
+</p>
+<p align="center"><em>Figure. Example of long-horizon fit using the TFT model.</em></p>
+
 ### Main observations
 
 * Most architectures suffer a strong drop in performance.
@@ -195,6 +205,11 @@ That design choice is one of the reasons why the project is stronger than a narr
 The numerical metrics were complemented with a visual analysis of predicted versus real values on the test set.
 
 This is especially important in this type of problem because a model can have acceptable average error while still failing to reproduce the events that matter most operationally: the **abrupt turbidity peaks**.
+
+<p align="center">
+  <img src="/assets/images/results/shap-tft-6h.png" alt="SHAP feature importance for TFT at 6-hour horizon" width="650">
+</p>
+<p align="center"><em>Figure. Feature-importance view for the TFT model in the long-horizon scenario.</em></p>
 
 ### Main qualitative findings
 
