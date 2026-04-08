@@ -232,6 +232,11 @@ This suggests that short-term turbidity behavior is sufficiently predictable for
 
 Still, the **TFT achieved the lowest MAE** in the 1-hour scenario, while **LSTM, GRU, and TFT** all showed very strong overall performance.
 
+<p align="center">
+  <img src="/assets/images/results/mlp-fit-1h.png" alt="MLP fit on the test set for a 1-hour forecast horizon" width="860">
+</p>
+<p align="center"><em>Figure. MLP fit on the test set for the 1-hour prediction horizon.</em></p>
+
 From an engineering point of view, this means that for immediate situational awareness, architecture choice is important but not yet decisive in the same way it becomes at longer horizons.
 
 ---
@@ -257,6 +262,11 @@ This shows that medium-range forecasting already begins to reward architectures 
 At the **6-hour horizon**, the difference between architectures becomes decisive.
 
 This is where the **Temporal Fusion Transformer clearly stands out**. With meteorological variables included, it delivered the strongest overall behavior and the highest explained variance by a wide margin.
+
+<p align="center">
+  <img src="/assets/images/results/tft-fit-6h.png" alt="TFT fit on the test set for a 6-hour forecast horizon" width="860">
+</p>
+<p align="center"><em>Figure. TFT fit on the test set for the 6-hour prediction horizon.</em></p>
 
 This is one of the most important technical findings of the project:
 
@@ -305,6 +315,11 @@ This is particularly important in a problem with sharp peaks, because global met
 * follow the timing of turbidity spikes
 * capture their magnitude
 * reproduce abrupt changes instead of over-smoothing them
+
+<p align="center">
+  <img src="/assets/images/results/shap-tft-6h.png" alt="SHAP analysis for the TFT model at 6-hour horizon" width="650">
+</p>
+<p align="center"><em>Figure. SHAP-based feature importance for the TFT model at the 6-hour horizon.</em></p>
 
 The qualitative analysis showed that the more competitive models, especially **LSTM** and **TFT**, were better able to follow the dynamic behavior of turbidity and align with many of the critical peaks.
 
