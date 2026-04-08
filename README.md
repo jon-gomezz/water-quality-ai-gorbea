@@ -19,6 +19,11 @@ This project explores how artificial intelligence can support **proactive water 
 
 Instead of focusing only on training a single model, the project was framed as a **reusable methodology** for designing, validating, and preparing the deployment of AI-based water quality prediction systems in real industrial environments.
 
+<p align="center">
+  <img src="assets/images/overview/aerial-infrastructure.png" alt="Aerial view of the Gorbea water treatment infrastructure" width="500">
+</p>
+<p align="center"><em>Figure. Aerial view of the Gorbea water treatment infrastructure.</em></p>
+
 ### Core idea
 
 Build and validate a methodological framework for turbidity prediction in a real water treatment context, using SCADA data, weather variables, and deep learning models for different forecasting horizons.
