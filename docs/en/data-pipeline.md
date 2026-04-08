@@ -244,6 +244,13 @@ This means constructing input-output samples where each prediction is based on a
 
 This sequence generation stage allows the same unified data foundation to be used across different model families and across multiple prediction horizons.
 
+
+<p align="center">
+  <img src="/assets/images/data/neural-network-data-flow.png" alt="Neural network data flow for the forecasting pipeline" width="760">
+</p>
+<p align="center"><em>Figure. Data flow from processed inputs to neural-network-based turbidity prediction.</em></p>
+
+
 ---
 
 ## Forecast horizon preparation
