@@ -77,6 +77,11 @@ This matters architecturally because any deployable solution must adapt to:
 
 The design also assumes that the plant already has a sufficiently robust power environment for pilot deployment, which makes it unnecessary to redesign the electrical backbone from scratch.
 
+<p align="center">
+  <img src="/assets/images/overview/aerial-infrastructure.png" alt="Aerial view of the infrastructure involved in the Gorbea case study" width="840">
+</p>
+<p align="center"><em>Figure. Physical context of the Gorbea infrastructure used in the case study.</em></p>
+
 ---
 
 ## 2. Sensing and plant data layer
@@ -99,6 +104,11 @@ This makes the proposal much more realistic as a portfolio project: it reflects 
 ## 3. Communications architecture
 
 One of the most important architectural decisions in the project concerns **how plant data is moved without compromising the integrity of the industrial control network**.
+
+<p align="center">
+  <img src="/assets/images/architecture/plant-to-internet-data-flow.png" alt="Data flow from the treatment plant to the internet-facing monitoring layer" width="760">
+</p>
+<p align="center"><em>Figure. Pilot communication architecture from plant data acquisition to the cloud monitoring layer.</em></p>
 
 ### Plant-side communications
 
