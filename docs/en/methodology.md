@@ -50,6 +50,11 @@ The methodology is organized into five major phases:
 4. **Operation strategy**
 5. **Maintenance and lifecycle management**
 
+<p align="center">
+  <img src="/assets/images/methodology/methodology-phases.png" alt="Methodology phases diagram" width="760">
+</p>
+<p align="center"><em>Figure. Main phases of the reusable methodology proposed in the project.</em></p>
+
 This structure makes the framework suitable for both experimental development and pilot-oriented industrial preparation.
 
 ---
